@@ -1,1 +1,3 @@
-# conference-room-tracker
+Finally get the truth about conference room usage using IoT Technologies - sensors report room activity to the cloud. Find complete instructions on the [project page on Hackster.io](https://www.hackster.io/peejster/conference-room-truth-serum-434e7e).
+
+The projects uses a simple PIR motion sensor connected to a Raspberry Pi running Windows 10 IoT Core. The Universal Windows App (UWA) on the Pi reports the status of the conference room to an Azure IoT Hub - "occupied" or "not occupied". IoT Hub allows me to easily collect data from several devices; once the data is in Azure, the possibilities are endless - including just simply showing whether a room is empty.
